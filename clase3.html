@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Divs con CSS</title>
+    <style>
+        /* Estilos CSS */
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .caja {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            border-radius: 5px;
+            border: 2px solid #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+        <div class="caja">9</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas con Diferente Tamaño y Color</title>
+    <style>
+        /* Estilos CSS */
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .caja {
+            flex: 0 0 calc(33.33% - 20px); /* Tamaño flexible para 3 columnas con espacio entre ellas */
+            height: 100px;
+            background-color: #3498db;
+            margin-right: 20px; /* Separación entre cajas */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #fff;
+            border-radius: 5px;
+            border: 2px solid #2980b9;
+        }
+
+        /* Estilos individuales para cada caja */
+        .caja:nth-child(2) {
+            background-color: #e74c3c;
+            height: 150px;
+        }
+
+        .caja:nth-child(3) {
+            background-color: #27ae60;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja">Caja 1</div>
+        <div class="caja">Caja 2</div>
+        <div class="caja">Caja 3</div>
+    </div>
+</body>
+</html>
