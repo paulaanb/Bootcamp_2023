@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    padding: 0;
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+    height: 80px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.main {
+    text-align: center;
+    display: inline-block;
+    height: 70%+75px;
+    width: 100%;
+}
+
+#izqheader {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-right: 1px solid black;
+    margin-right: 40px;
+    text-align: left;
+}
+
+#derheader {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30%;
+    border-left: 1px solid black;
+    text-align: right;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    height: 80px;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.aside {
+    background-color: lightcoral;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    height: 604px;
+    width: 30%;
+    margin-right: 40px;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+#upside {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#downside {
+    padding-top: 130px;
+    border-top: 1px solid black;
+}
+
+.center {
+    display: inline-block;
+    vertical-align: top;
+    height: 70%;
+    width: 65%;
+}
+
+h1 {
+    text-transform: uppercase; /* ponerlas en mayusculas*/
+}
+
+#imagen {
+    width: 100%;
+    height: 480px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: yellow;
+}
